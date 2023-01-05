@@ -1,0 +1,36 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.box {
+    cursor: pointer;
+    width: 120px;
+    height: 30px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blue {
+    color: white;
+    background-color: blue;
+}
+.pale {
+    color: white;
+
+    background-color: palevioletred;
+}
+.green {
+    color: white;
+
+    background-color: green;
+}
+
+.even {
+    color: white;
+
+    background-color: lime;
+}
