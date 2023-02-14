@@ -46,7 +46,7 @@ const validateInputs = () => {
     if(firstNameValue === '') {
         setError(firstName, 'First Name is required');
     } 
-    else if (firstNameValue.length > 16 || firstNameValue.length<2) {
+    else if (firstNameValue.length > 16 || firstNameValue.length<3) {
         setError(firstName, 'First name must be alphanumeric and contain 3 - 16 characters.')
     }
     else {
@@ -56,7 +56,7 @@ const validateInputs = () => {
     if(lastNameValue === '') {
         setError(lastName, 'Last Name is required');
     } 
-    else if (lastNameValue.length > 17 || firstNameValue.length<2 ) {
+    else if (lastNameValue.length > 17 || firstNameValue.length<3 ) {
         setError(lastName, 'Last name must be alphanumeric and contain 3 - 16 characters.')
     }
     else {
